@@ -38,17 +38,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Home"
-            android:layout_marginTop="10dp"
-            android:id="@+id/textView2"
             android:textSize="25dp"
             android:textColor="#ffffff"
-            android:gravity="center"
             android:layout_gravity="center_horizontal" />
 
         <TextView
@@ -57,9 +55,7 @@
             android:text="Calendar"
             android:textSize="25dp"
             android:textColor="#ffffff"
-            android:gravity="center"
-            android:id="@+id/textView3"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -67,9 +63,60 @@
             android:text="Overview"
             android:textColor="#ffffff"
             android:textSize="25dp"
-            android:gravity="center"
             android:id="@+id/textView4"
             android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groups"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lists"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timeline"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:id="@+id/textView6"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:id="@+id/textView7"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
 
